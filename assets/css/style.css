@@ -1,12 +1,13 @@
 html{
   overflow-x:hidden;
+  background-color: rgb(29, 29, 29);
   }
 
-/* The animation code */
-@keyframes h1 {
+/* Animação do Titulo */
+@keyframes titulo {
   0% {
      opacity: 0;
-     transform: translateY(-20px);
+     transform: translateY(-250%);
   }
   100% {
      opacity: 1;
@@ -14,14 +15,77 @@ html{
   }
 } 
   
-  /* The element to apply the animation to */
-  h1{   
+  
+  #titulo{   
     font-family: 'Kdam Thmor Pro', sans-serif;
     -webkit-text-stroke-width: 5px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
     font-size: 75px;
-    animation-name: h1;
+    animation-name: titulo;
     animation-duration: 3s;
     animation-iteration-count: initial;
   }
+/*Fim da animação*/  
+.navbar{
+  background-color: #161C1E;
+}
+
+.entusiasta{
+  padding: 8px;
+  background-color: #021C27;
+  color: #E6E1DF;
+  text-align: center;
+  text-decoration: dotted;  
+}
+
+.estranho{
+  padding: 8px;
+  background-color: #021C27;
+  color: #E6E1DF;   
+}
+
+.txt-estranho{
+  padding: 8px;  
+}
+
+#img-estranho{
+  border-radius: 10px;
+}
+
+/*Animação img estranho*/
+@keyframes img-estranho {
+  0% {
+     opacity: 0;
+     transform: translatex(-250%);
+  }
+  100% {
+     opacity: 1;
+     transform: translatex(0);
+  }
+} 
   
+  
+  #img-estranho{       
+    animation-name: img-estranho;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+  }
+
+  /*Animação texto estranho*/
+  @keyframes txt-estranho {
+    0% {
+       opacity: 0;
+       transform: translatex(250%);
+    }
+    100% {
+       opacity: 1;
+       transform: translatex(0);
+    }
+  } 
+    
+    
+    #txt-estranho{       
+      animation-name: txt-estranho;
+      animation-duration: 5s;      
+      animation-iteration-count: inherit;
+    }

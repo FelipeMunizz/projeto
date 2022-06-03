@@ -1,0 +1,29 @@
+preto azulado
+#161C1E
+
+cinza azulado
+#272E32
+
+cinza
+#7F7B77
+
+gelo
+#E6E1DF
+
+azul acinzentado (claro)
+#B0B9C1
+
+azul fosco (claro)
+#92AFC0
+
+azul 
+#4F8BA7
+
+azul escuro
+#0F3E55
+
+azul negro
+#021C27
+
+preto
+#010D17
