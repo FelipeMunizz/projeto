@@ -1,14 +1,27 @@
+html{
+  overflow-x:hidden;
+  }
+
 /* The animation code */
 @keyframes h1 {
-    0%{width: 0%;}
-    50%{width: 100%;}
-    100%{width: 100%;}
+  0% {
+     opacity: 0;
+     transform: translateY(-20px);
   }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+} 
   
   /* The element to apply the animation to */
   h1{   
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.5);
+    font-size: 75px;
     animation-name: h1;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
   }
   
