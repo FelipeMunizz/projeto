@@ -1,0 +1,5 @@
+https://www.w3schools.com/
+
+https://getbootstrap.com/docs/5.2/getting-started/introduction/
+
+https://github.com/michalsnik/aos/tree/v2

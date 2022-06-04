@@ -32,7 +32,8 @@ html{
 
 .entusiasta{
   padding: 8px;
-  background-color: #021C27;
+  font-family: 'Fredoka One', cursive;
+  background-color: #010D17;
   color: #E6E1DF;
   text-align: center;
   text-decoration: dotted;  
@@ -40,52 +41,30 @@ html{
 
 .estranho{
   padding: 8px;
-  background-color: #021C27;
+  background-color: #010D17;
   color: #E6E1DF;   
 }
 
 .txt-estranho{
-  padding: 8px;  
+  padding: 8px;
+  color: #E6E1DF;  
 }
 
 #img-estranho{
+  width: 450px;
   border-radius: 10px;
 }
 
-/*Animação img estranho*/
-@keyframes img-estranho {
-  0% {
-     opacity: 0;
-     transform: translatex(-250%);
-  }
-  100% {
-     opacity: 1;
-     transform: translatex(0);
-  }
-} 
-  
-  
-  #img-estranho{       
-    animation-name: img-estranho;
-    animation-duration: 3s;
-    animation-iteration-count: inherit;
-  }
+.starwar{
+  padding: 15px;
+  background-color: #010D17;
+}
 
-  /*Animação texto estranho*/
-  @keyframes txt-estranho {
-    0% {
-       opacity: 0;
-       transform: translatex(250%);
-    }
-    100% {
-       opacity: 1;
-       transform: translatex(0);
-    }
-  } 
-    
-    
-    #txt-estranho{       
-      animation-name: txt-estranho;
-      animation-duration: 5s;      
-      animation-iteration-count: inherit;
-    }
+.txt-star{
+  color: #E6E1DF;
+}
+
+#img-star{
+  width: 450px;
+  border-radius: 10px;  
+}
